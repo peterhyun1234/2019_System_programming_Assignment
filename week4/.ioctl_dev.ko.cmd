@@ -1,0 +1,1 @@
+cmd_/home/peterhyun/2019_system_programming/week4/ioctl_dev.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/peterhyun/2019_system_programming/week4/ioctl_dev.ko /home/peterhyun/2019_system_programming/week4/ioctl_dev.o /home/peterhyun/2019_system_programming/week4/ioctl_dev.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_/home/peterhyun/2019_system_programming/week3/sysprog_device.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/peterhyun/2019_system_programming/week3/sysprog_device.ko /home/peterhyun/2019_system_programming/week3/sysprog_device.o /home/peterhyun/2019_system_programming/week3/sysprog_device.mod.o ;  true
